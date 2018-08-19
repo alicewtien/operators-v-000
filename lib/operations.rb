@@ -7,5 +7,5 @@ end
 
 def not_safe?(speed)
 	speed = "#{speed}".to_i
-	speed.between?(40, 60) ? "false" : "true"
+	speed.between?(40, 60) ? false : true
 end
