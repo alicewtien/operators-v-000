@@ -1,7 +1,5 @@
 def unsafe?(speed)
-	return false if "#{speed}".between?(40, 60)
-else
-	return true
+	"#{speed}" < 40 || "#{speed}" > 60
 end
 
 
